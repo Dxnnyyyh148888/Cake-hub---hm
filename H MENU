@@ -181,6 +181,7 @@ nn.Position = UDim2.new(0.55,0,0.55)
 nn.BackgroundColor3 = Color3.fromRGB(54,54,54)
 nn.BorderColor3 = Color3.new(1,1,1)
 nn.Text = "Noclip"
+nn.TextScaled = true
 nn.Font = Enum.Font.SourceSans
 nn.TextColor3 = Color3.new(1,1,1)
 nn.MouseButton1Click:Connect(function()
