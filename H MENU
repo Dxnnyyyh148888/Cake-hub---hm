@@ -174,3 +174,15 @@ bot.MouseButton1Click:Connect(function()
     wait(1)
     bot.Text = "Aim-Bot"
 end)
+local nn = Instance.new("TextButton")
+nn.Parent = m
+nn.Size = UDim2.new(0.4,0,0.1)
+nn.Position = UDim2.new(0.55,0,0.55)
+nn.BackgroundColor3 = Color3.fromRGB(54,54,54)
+nn.BorderColor3 = Color3.new(1,1,1)
+nn.Text = "Noclip"
+nn.Font = Enum.Font.SourceSans
+nn.TextColor3 = Color3.new(1,1,1)
+nn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BJcTb0k2"))()
+end)
