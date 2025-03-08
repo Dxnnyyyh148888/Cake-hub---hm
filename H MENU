@@ -170,7 +170,7 @@ bot.TextScaled = true
 bot.AutoButtonColor = true
 bot.MouseButton1Click:Connect(function()
     bot.Text = "Loading..."
-    loadstring(game:HttpGet("https://pastebin.com/raw/DArrXGCn"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/g0URtv8X"))()
     wait(1)
     bot.Text = "Aim-Bot"
 end)
